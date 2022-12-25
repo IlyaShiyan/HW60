@@ -5,7 +5,7 @@ public class Main {
 
         int [] numbers = {1,5,10,80,35,-20};
         Arrays.sort(numbers);
-        System.out.println("Sorted arrays: " + Arrays.toString(numbers));
+        System.out.println("Sorted array: " + Arrays.toString(numbers));
 
         int[] numbersCopy = Arrays.copyOfRange(numbers,1,4);
         System.out.println("Copy of array: " + Arrays.toString(numbersCopy));
